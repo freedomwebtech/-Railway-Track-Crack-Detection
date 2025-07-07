@@ -7,7 +7,7 @@ model = YOLO('best.pt')
 names = model.names  # Class name mapping
 
 # Video source
-cap = cv2.VideoCapture("bu.mp4")  # Change to 0 for webcam
+cap = cv2.VideoCapture("track.mp4")  # Change to 0 for webcam
 
 
 
