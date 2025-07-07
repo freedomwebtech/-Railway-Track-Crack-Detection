@@ -60,12 +60,6 @@ while True:
             cvzone.putTextRect(frame, f'{name}', (x1, y1), 1, 1)
 
     
-#    cvzone.putTextRect(frame, f'OUT: {out_count}', (40, 100), scale=2, thickness=2,
-#                       colorT=(255, 255, 255), colorR=(0, 0, 255))
-
-    # Draw counting line
-#    cv2.line(frame, (0,line_y), (frame.shape[1],line_y), (255, 0, 0), 2)
-
 
 
 
