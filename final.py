@@ -34,7 +34,6 @@ while True:
     # Resize frame
     frame = cv2.resize(frame, (1020, 600))
 
-    # Run YOLOv8 tracking (only on car=2, motorcycle=3)
     results = model.track(frame, persist=True)
 
     if results[0].boxes.id is not None:
