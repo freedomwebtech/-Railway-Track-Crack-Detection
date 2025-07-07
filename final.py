@@ -10,13 +10,6 @@ names = model.names  # Class name mapping
 cap = cv2.VideoCapture("track.mp4")  # Change to 0 for webcam
 
 
-
-# Tracking history
-hist = {}
-
-# Counts
-
-out_count = 0
 frame_count = 0
 
 # Mouse callback for pixel debug (optional)
@@ -27,7 +20,7 @@ def RGB(event, x, y, flags, param):
 cv2.namedWindow("RGB")
 cv2.setMouseCallback("RGB", RGB)
 
-line_y=263
+
 # Main loop
 while True:
     ret, frame = cap.read()
